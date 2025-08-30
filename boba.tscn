@@ -1,0 +1,316 @@
+[gd_scene load_steps=44 format=3 uid="uid://dadm0yus11diw"]
+
+[ext_resource type="Script" uid="uid://cuw18y7ydjloy" path="res://boba.gd" id="1_1xri0"]
+[ext_resource type="Texture2D" uid="uid://by4mrti8qujq8" path="res://project/art/background.PNG" id="1_memhf"]
+[ext_resource type="Texture2D" uid="uid://ikffkjmkli1k" path="res://project/art/ice.PNG" id="2_onnij"]
+[ext_resource type="Texture2D" uid="uid://c4y6yuseuf4nw" path="res://project/art/tea.PNG" id="3_0x4p2"]
+[ext_resource type="Texture2D" uid="uid://blw655ep4pqdp" path="res://project/art/tab.PNG" id="3_pnnr7"]
+[ext_resource type="Texture2D" uid="uid://bub3cercnggy1" path="res://project/art/pearls.PNG" id="4_35b8v"]
+[ext_resource type="Texture2D" uid="uid://dutwmxmk1oyh5" path="res://project/button/no ice button.PNG" id="4_g568h"]
+[ext_resource type="Texture2D" uid="uid://cn3v5drnydf87" path="res://project/art/cup.PNG" id="5_1xri0"]
+[ext_resource type="Texture2D" uid="uid://cs2pyqbm447q0" path="res://project/button/more ice button.PNG" id="6_558nl"]
+[ext_resource type="Texture2D" uid="uid://7ciccg2iphtc" path="res://project/button/passionfruit button.PNG" id="6_ajq0d"]
+[ext_resource type="Texture2D" uid="uid://04xomhuwod5v" path="res://project/button/ice button.PNG" id="7_1xri0"]
+[ext_resource type="Texture2D" uid="uid://cfna2nj7xe7vn" path="res://project/button/taro button.PNG" id="7_x1j7o"]
+[ext_resource type="Texture2D" uid="uid://daskdigxdeen5" path="res://project/button/pearls button.PNG" id="8_2mkjn"]
+[ext_resource type="Texture2D" uid="uid://bkgkspal7w86t" path="res://project/button/brown sugar button.PNG" id="9_6a84d"]
+[ext_resource type="Texture2D" uid="uid://j60pr5v2403e" path="res://project/button/lychee button.PNG" id="9_odhr2"]
+[ext_resource type="Texture2D" uid="uid://ccqnngt1mxh43" path="res://project/art/taro.PNG" id="10_7d6hx"]
+[ext_resource type="Texture2D" uid="uid://ckerygn2es1rb" path="res://project/button/sago button.PNG" id="10_64v7c"]
+[ext_resource type="Texture2D" uid="uid://cjn8iht1kot25" path="res://project/button/matcha button.PNG" id="10_558nl"]
+[ext_resource type="Texture2D" uid="uid://brdpmukwjpyvy" path="res://project/button/oolong button.PNG" id="10_cptiq"]
+[ext_resource type="Texture2D" uid="uid://c4xo8vbvalu88" path="res://project/button/strawberry button.PNG" id="11_43de4"]
+[ext_resource type="Texture2D" uid="uid://5nkw032hr3hy" path="res://project/art/passionfruit.PNG" id="12_51w30"]
+[ext_resource type="Texture2D" uid="uid://c0bjiwpjgph0q" path="res://project/button/peach button.PNG" id="12_sn4kv"]
+[ext_resource type="Texture2D" uid="uid://c7v73ihyet24m" path="res://project/button/yakult button.PNG" id="13_uc6ui"]
+[ext_resource type="Texture2D" uid="uid://b8vywmwi8hkdp" path="res://project/button/next button.PNG" id="15_ajq0d"]
+[ext_resource type="Texture2D" uid="uid://bf1ajjr2auhdx" path="res://project/button/back button.PNG" id="16_x1j7o"]
+[ext_resource type="Texture2D" uid="uid://c3kud2pn3sqi3" path="res://project/art/lychee jelly.PNG" id="17_yjy42"]
+[ext_resource type="Texture2D" uid="uid://b7gyq7e5ipo2p" path="res://project/button/grass jelly button.PNG" id="18_broqk"]
+[ext_resource type="Texture2D" uid="uid://8srsi74vkdrl" path="res://project/art/no ice.PNG" id="18_ncwn2"]
+[ext_resource type="Texture2D" uid="uid://cba8dtny70e1g" path="res://project/art/sago.PNG" id="18_tutql"]
+[ext_resource type="Texture2D" uid="uid://ds57nupft5nda" path="res://project/label/ice label.PNG" id="19_6b73f"]
+[ext_resource type="Texture2D" uid="uid://bem0muekslx45" path="res://project/label/flavor label.PNG" id="20_0d5nb"]
+[ext_resource type="Texture2D" uid="uid://bykey0epqdce4" path="res://project/art/more ice.PNG" id="20_g8vea"]
+[ext_resource type="Texture2D" uid="uid://ccs4f7eg3fied" path="res://project/label/toppings label.PNG" id="21_6ejyl"]
+[ext_resource type="Texture2D" uid="uid://de7jbs81d7mwd" path="res://project/art/oolong.PNG" id="22_s5qo3"]
+[ext_resource type="Texture2D" uid="uid://b7qqwdkd3d2k" path="res://project/art/matcha.PNG" id="23_va6qd"]
+[ext_resource type="Texture2D" uid="uid://cka3d8tpq82ct" path="res://project/art/peach.PNG" id="24_ncwn2"]
+[ext_resource type="Texture2D" uid="uid://da4wecjcjjdd5" path="res://project/art/strawberry.PNG" id="25_g8vea"]
+[ext_resource type="Texture2D" uid="uid://b5nym5weoxkx4" path="res://project/art/yakult.PNG" id="26_broqk"]
+[ext_resource type="Texture2D" uid="uid://cl6772ijtwv82" path="res://project/art/grass jelly.PNG" id="32_cxxw3"]
+
+[sub_resource type="GDScript" id="GDScript_pnnr7"]
+script/source = "extends TextureButton
+"
+
+[sub_resource type="GDScript" id="GDScript_16qqx"]
+script/source = "extends TextureButton
+"
+
+[sub_resource type="GDScript" id="GDScript_ajq0d"]
+script/source = "extends TextureButton
+"
+
+[sub_resource type="GDScript" id="GDScript_1xri0"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_1xri0")
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(50, -100)
+texture = ExtResource("1_memhf")
+metadata/_edit_lock_ = true
+
+[node name="TabBackground" type="Sprite2D" parent="."]
+position = Vector2(-101, 91)
+texture = ExtResource("3_pnnr7")
+
+[node name="Ice_Section" type="VBoxContainer" parent="TabBackground"]
+offset_left = 183.0
+offset_top = -18.0
+offset_right = 896.0
+offset_bottom = 1301.0
+scale = Vector2(0.3, 0.3)
+theme_override_constants/separation = 100
+
+[node name="No_Ice_Button" type="TextureButton" parent="TabBackground/Ice_Section"]
+layout_mode = 2
+texture_normal = ExtResource("4_g568h")
+
+[node name="Ice_Button" type="TextureButton" parent="TabBackground/Ice_Section"]
+layout_mode = 2
+texture_normal = ExtResource("7_1xri0")
+texture_pressed = ExtResource("7_1xri0")
+texture_hover = ExtResource("7_1xri0")
+script = SubResource("GDScript_pnnr7")
+
+[node name="More_Ice_Button" type="TextureButton" parent="TabBackground/Ice_Section"]
+layout_mode = 2
+texture_normal = ExtResource("6_558nl")
+
+[node name="Flavor_Section" type="HBoxContainer" parent="TabBackground"]
+visible = false
+offset_left = 119.0
+offset_top = -36.0
+offset_right = 1595.0
+offset_bottom = 1756.0
+scale = Vector2(0.229133, 0.271745)
+theme_override_constants/separation = 50
+
+[node name="Tea_Section" type="VBoxContainer" parent="TabBackground/Flavor_Section"]
+layout_mode = 2
+theme_override_constants/separation = 100
+
+[node name="BS_Button" type="TextureButton" parent="TabBackground/Flavor_Section/Tea_Section"]
+layout_mode = 2
+texture_normal = ExtResource("9_6a84d")
+script = SubResource("GDScript_16qqx")
+
+[node name="Taro_Button" type="TextureButton" parent="TabBackground/Flavor_Section/Tea_Section"]
+layout_mode = 2
+texture_normal = ExtResource("7_x1j7o")
+
+[node name="Oolong_Button" type="TextureButton" parent="TabBackground/Flavor_Section/Tea_Section"]
+layout_mode = 2
+texture_normal = ExtResource("10_cptiq")
+
+[node name="Matcha_Button" type="TextureButton" parent="TabBackground/Flavor_Section/Tea_Section"]
+layout_mode = 2
+texture_normal = ExtResource("10_558nl")
+
+[node name="Juice_Section" type="VBoxContainer" parent="TabBackground/Flavor_Section"]
+layout_mode = 2
+theme_override_constants/separation = 100
+
+[node name="Passionfruit_Button" type="TextureButton" parent="TabBackground/Flavor_Section/Juice_Section"]
+layout_mode = 2
+texture_normal = ExtResource("6_ajq0d")
+
+[node name="Peach_Button" type="TextureButton" parent="TabBackground/Flavor_Section/Juice_Section"]
+layout_mode = 2
+texture_normal = ExtResource("12_sn4kv")
+
+[node name="Strawberry_Button" type="TextureButton" parent="TabBackground/Flavor_Section/Juice_Section"]
+layout_mode = 2
+texture_normal = ExtResource("11_43de4")
+
+[node name="Yakult_Button" type="TextureButton" parent="TabBackground/Flavor_Section/Juice_Section"]
+layout_mode = 2
+texture_normal = ExtResource("13_uc6ui")
+
+[node name="Toppings_Section" type="VBoxContainer" parent="TabBackground"]
+visible = false
+offset_left = 183.0
+offset_top = -70.0
+offset_right = 902.0
+offset_bottom = 1730.0
+scale = Vector2(0.3, 0.3)
+theme_override_constants/separation = 80
+
+[node name="Pearls_Button" type="TextureButton" parent="TabBackground/Toppings_Section"]
+layout_mode = 2
+texture_normal = ExtResource("8_2mkjn")
+script = SubResource("GDScript_ajq0d")
+
+[node name="Lychee_Button" type="TextureButton" parent="TabBackground/Toppings_Section"]
+layout_mode = 2
+texture_normal = ExtResource("9_odhr2")
+
+[node name="Sago_Button" type="TextureButton" parent="TabBackground/Toppings_Section"]
+layout_mode = 2
+texture_normal = ExtResource("10_64v7c")
+
+[node name="Grass_Button" type="TextureButton" parent="TabBackground/Toppings_Section"]
+layout_mode = 2
+texture_normal = ExtResource("18_broqk")
+
+[node name="Ice_Label" type="Sprite2D" parent="TabBackground"]
+position = Vector2(291, 501)
+scale = Vector2(0.268659, 0.283095)
+texture = ExtResource("19_6b73f")
+
+[node name="Flavor_Label" type="Sprite2D" parent="TabBackground"]
+visible = false
+position = Vector2(291, 501)
+scale = Vector2(0.269, 0.283)
+texture = ExtResource("20_0d5nb")
+
+[node name="Toppings_Label" type="Sprite2D" parent="TabBackground"]
+visible = false
+position = Vector2(291, 501)
+scale = Vector2(0.269, 0.283)
+texture = ExtResource("21_6ejyl")
+
+[node name="DrinkContainer" type="Node2D" parent="."]
+position = Vector2(578, 380)
+scale = Vector2(0.25, 0.25)
+script = SubResource("GDScript_1xri0")
+
+[node name="No_Ice" type="Sprite2D" parent="DrinkContainer"]
+position = Vector2(160, 764)
+texture = ExtResource("18_ncwn2")
+
+[node name="Ice" type="Sprite2D" parent="DrinkContainer"]
+visible = false
+position = Vector2(172, -352)
+scale = Vector2(1.39688, 1.48518)
+texture = ExtResource("2_onnij")
+
+[node name="More_Ice" type="Sprite2D" parent="DrinkContainer"]
+visible = false
+position = Vector2(796, 512)
+scale = Vector2(1.397, 1.485)
+texture = ExtResource("20_g8vea")
+
+[node name="Taro" type="Sprite2D" parent="DrinkContainer"]
+visible = false
+position = Vector2(168.13, -350.375)
+scale = Vector2(1.397, 1.485)
+texture = ExtResource("10_7d6hx")
+
+[node name="Brown_Sugar" type="Sprite2D" parent="DrinkContainer"]
+visible = false
+position = Vector2(168.13, -350.375)
+scale = Vector2(1.39688, 1.48518)
+texture = ExtResource("3_0x4p2")
+
+[node name="Passionfruit" type="Sprite2D" parent="DrinkContainer"]
+visible = false
+position = Vector2(168.13, -350.375)
+scale = Vector2(1.397, 1.485)
+texture = ExtResource("12_51w30")
+
+[node name="Oolong" type="Sprite2D" parent="DrinkContainer"]
+visible = false
+position = Vector2(356, -560)
+scale = Vector2(1.38708, 1.48124)
+texture = ExtResource("22_s5qo3")
+
+[node name="Matcha" type="Sprite2D" parent="DrinkContainer"]
+visible = false
+position = Vector2(356, -560)
+scale = Vector2(1.397, 1.485)
+texture = ExtResource("23_va6qd")
+
+[node name="Peach" type="Sprite2D" parent="DrinkContainer"]
+visible = false
+position = Vector2(356, -560)
+scale = Vector2(1.397, 1.485)
+texture = ExtResource("24_ncwn2")
+
+[node name="Strawberry" type="Sprite2D" parent="DrinkContainer"]
+visible = false
+position = Vector2(356, -560)
+scale = Vector2(1.397, 1.485)
+texture = ExtResource("25_g8vea")
+
+[node name="Yakult" type="Sprite2D" parent="DrinkContainer"]
+visible = false
+position = Vector2(356, -560)
+scale = Vector2(1.397, 1.485)
+texture = ExtResource("26_broqk")
+
+[node name="Pearls" type="Sprite2D" parent="DrinkContainer"]
+visible = false
+position = Vector2(168.13, -350.375)
+scale = Vector2(1.39688, 1.48518)
+texture = ExtResource("4_35b8v")
+
+[node name="Lychee_Jelly" type="Sprite2D" parent="DrinkContainer"]
+visible = false
+position = Vector2(168.13, 532)
+scale = Vector2(1.397, 1.485)
+texture = ExtResource("17_yjy42")
+
+[node name="Grass_Jelly" type="Sprite2D" parent="DrinkContainer"]
+visible = false
+position = Vector2(172, -392)
+scale = Vector2(1.397, 1.485)
+texture = ExtResource("32_cxxw3")
+
+[node name="Sago" type="Sprite2D" parent="DrinkContainer"]
+visible = false
+position = Vector2(168.13, 624)
+scale = Vector2(1.397, 1.485)
+texture = ExtResource("18_tutql")
+
+[node name="Cup" type="Sprite2D" parent="DrinkContainer"]
+position = Vector2(168.13, -350.375)
+scale = Vector2(1.39688, 1.48518)
+texture = ExtResource("5_1xri0")
+
+[node name="Next" type="TextureButton" parent="."]
+offset_left = 290.0
+offset_top = 564.0
+offset_right = 783.0
+offset_bottom = 929.0
+scale = Vector2(0.156701, 0.178283)
+texture_normal = ExtResource("15_ajq0d")
+
+[node name="Back" type="TextureButton" parent="."]
+visible = false
+offset_left = 16.0
+offset_top = 564.0
+offset_right = 509.0
+offset_bottom = 925.0
+scale = Vector2(0.15, 0.17)
+texture_normal = ExtResource("16_x1j7o")
+
+[connection signal="pressed" from="TabBackground/Ice_Section/No_Ice_Button" to="." method="_on_no_ice_button_pressed"]
+[connection signal="pressed" from="TabBackground/Ice_Section/Ice_Button" to="." method="_on_ice_button_pressed"]
+[connection signal="pressed" from="TabBackground/Ice_Section/More_Ice_Button" to="." method="_on_more_ice_button_pressed"]
+[connection signal="pressed" from="TabBackground/Flavor_Section/Tea_Section/BS_Button" to="." method="_on_bs_button_pressed"]
+[connection signal="pressed" from="TabBackground/Flavor_Section/Tea_Section/Taro_Button" to="." method="_on_taro_button_pressed"]
+[connection signal="pressed" from="TabBackground/Flavor_Section/Tea_Section/Oolong_Button" to="." method="_on_oolong_button_pressed"]
+[connection signal="pressed" from="TabBackground/Flavor_Section/Tea_Section/Matcha_Button" to="." method="_on_matcha_button_pressed"]
+[connection signal="pressed" from="TabBackground/Flavor_Section/Juice_Section/Passionfruit_Button" to="." method="_on_passionfruit_button_pressed"]
+[connection signal="pressed" from="TabBackground/Flavor_Section/Juice_Section/Peach_Button" to="." method="_on_peach_button_pressed"]
+[connection signal="pressed" from="TabBackground/Flavor_Section/Juice_Section/Strawberry_Button" to="." method="_on_strawberry_button_pressed"]
+[connection signal="pressed" from="TabBackground/Flavor_Section/Juice_Section/Yakult_Button" to="." method="_on_yakult_button_pressed"]
+[connection signal="pressed" from="TabBackground/Toppings_Section/Pearls_Button" to="." method="_on_pearls_button_pressed"]
+[connection signal="pressed" from="TabBackground/Toppings_Section/Lychee_Button" to="." method="_on_lychee_button_pressed"]
+[connection signal="pressed" from="TabBackground/Toppings_Section/Sago_Button" to="." method="_on_sago_button_pressed"]
+[connection signal="pressed" from="TabBackground/Toppings_Section/Grass_Button" to="." method="_on_grass_button_pressed"]
+[connection signal="pressed" from="Next" to="." method="_on_next_pressed"]
+[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]
